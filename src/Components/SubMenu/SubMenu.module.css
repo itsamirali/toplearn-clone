@@ -1,0 +1,28 @@
+.mainContainer {
+  box-shadow: 0 0 10px #ebf0f5;
+  -moz-box-shadow: 0 0 10px #ebf0f5;
+  -webkit-box-shadow: 0 0 10px #ebf0f5;
+  background-color: #fff;
+  border-bottom: 1px solid #eef4f9;
+  height: 80px;
+}
+
+.subMenuUlStyles li span {
+  font-size: 14px;
+  font-weight: 400;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.subMenuUlStyles li span:hover {
+  color: #00b3e9;
+}
+
+.subMenuStyles {
+  position: absolute;
+  top: 110%;
+  background-color: #fff;
+  left: 0;
+  border-radius: 5px;
+  border: 1px solid rgba(65, 105, 225, 0.403);
+}
