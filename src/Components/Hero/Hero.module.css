@@ -1,0 +1,57 @@
+.mainContainerStyles {
+  background-image: url("https://toplearn.com/site/images/landing.jpg") !important;
+  width: 100vw !important;
+  height: 91.7vh !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainHeroTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+  line-height: 35px;
+  margin-bottom: 20px;
+  word-spacing: -2px;
+}
+.mainHeroSubitle {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.mainSerarchInputStyles {
+  width: 100%;
+  display: block;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  line-height: 50px;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 15px;
+  color: #1e2f38;
+  border: 0;
+  outline: 10px solid rgba(255, 255, 255, 0.15);
+  font-family: "Vazirmatn", sans-serif;
+}
+
+.mainSerarchInputStyles::placeholder {
+  font-family: "Vazirmatn", sans-serif;
+}
+
+.searchIconStyles {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(70%);
+}
+
+.infoContainerStyles {
+    color: #fff;
+}
+.infoContainerStyles img {
+    width: 140px;
+    height: 140px;
+}

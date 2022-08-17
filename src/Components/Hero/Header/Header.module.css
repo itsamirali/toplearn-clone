@@ -1,0 +1,38 @@
+.ulStyles {
+  list-style: none;
+}
+.ulStyles li {
+  height: 55px;
+}
+.ulStyles li a {
+  font-size: 14px !important;
+  position: relative;
+}
+.ulStyles li img {
+  width: 75px;
+  height: 60px;
+}
+.ulStyles li a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #00b3e9;
+  box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.21);
+  border-radius: 50px;
+  transition: all 0.3s ease-out;
+}
+.ulStyles li a:hover:after {
+  width: 100%;
+}
+
+.leftLinkStyles {
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease-out;
+}
+.leftLinkStyles:hover {
+  color: #00b3e9;
+}
